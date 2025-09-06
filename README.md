@@ -20,3 +20,16 @@ An adversarial training framework where a generator network learns to create rea
 
 ### 3. Denoising Diffusion Probabilistic Model (DDPM)
 A diffusion-based model that generates images by learning to reverse a noise corruption process, producing high-quality samples through iterative denoising.
+
+## Comparing Models
+
+When comparing VAEs, GANs, and DDPMs, we evaluate performance using FID (lower is better), precision (fraction of realistic generated samples), and recall (coverage of real data diversity).You can see the detailed comparison results in the repository.
+
+## Bachelor's Thesis Context
+This implementation is part of a Bachelor's thesis research focused on:
+
+- Comparative analysis of generative models
+- Deep dive into diffusion-based models
+- Applications and future directions in image generation
+
+**[Read the complete thesis here](https://drive.google.com/file/d/1ca2HQaZm8X60L6wm9ASE15xaX4-qwwn4/view?usp=drive_link)**
